@@ -8,7 +8,7 @@ leftHeader.className = 'header-left';
 
 // creating image element with src of logo.png
 const headerImg = document.createElement('img');
-headerImg.src = 'logo.png';
+headerImg.src = '/logo.png';
 
 // creating h1 element with text content of UnEarthed
 const headingUnearthed = document.createElement('h1');
