@@ -3,8 +3,8 @@ import path from 'path'
 import { fileURLToPath } from 'url'
 import giftData from '../data/gifts.js'
 
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = path.dirname(__filename)
+const __filename = fileURLToPath(import.meta.url) // whole file path to gifts.js
+const __dirname = path.dirname(__filename) // gifts
 
 const router = express.Router()
 
